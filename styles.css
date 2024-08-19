@@ -6,27 +6,81 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4;
     color: #333;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 100vh; */
 }
 
 header {
-    margin: 20px 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(199, 227, 244)
 }
 
 h1 {
     font-size: 3em;
     color: #333;
 }
+h2{
+    font-size: 2em;
+    color: #333;
+}
+.about {
+    text-align: center;
+    padding: 40px;
+    background-color: #d5f3ed;
+}
+.about h2 {
+   padding-bottom: 10px;
+}
+.about p {
+    font-size: 1.4em;
+    color: #333;
+}
 
+.demo_container{
+    text-align: center;
+    padding: 40px; 
+    min-height: 35vh;
+}
+.card1{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+
+}
+
+.demo_working{
+    padding: 30px;
+    display: flex;
+    gap: 20px;  
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.forms_Container{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333; 
+    min-height: 70vh; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+
+}
+.form_header h2{
+    text-align: center;
+    padding: 30px;
+}
 .container {
     display: flex;
-    gap: 20px;
+    gap: 20px;  
     justify-content: center;
     flex-wrap: wrap;
 }
